@@ -1,0 +1,43 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p, h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.black-background {
+  background-color: black;
+  height: 450px;
+  width: 450px;
+}
+button {
+  background-color: #272629;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+input {
+  background-color: black;
+  color: white;
+}
+
+input:focus {
+  background-color: white;
+  color: black;
+}
+
+body {
+  background-color: #272629;
+}
